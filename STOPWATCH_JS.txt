@@ -1,0 +1,47 @@
+console.log("Hello world");
+console.log("Ladies and Gentlemen the Stopwatch Project");
+var count1=0;
+var count2=0;
+var count3=0;
+var y;
+function Press(){
+  y=setInterval(Start,1000);
+} 
+function Start(){
+count1=count1+1;
+document.getElementById("x").innerHTML=count1;
+if(count1==60){
+    r1();
+}
+}
+function r1(){
+document.getElementById("x").innerHTML=00;
+count1=0;
+count2++;
+document.getElementById("y").innerHTML=count2;
+if(count2==60){
+  r2();
+}
+}
+function r2(){
+  document.getElementById("x").innerHTML=00;
+  document.getElementById("y").innerHTML=00;
+  count1=0;
+  count2=0;
+  count3++;
+document.getElementById("z").innerHTML=count3;
+}
+function Reset(){
+  count1=0;
+  count2=0;
+  count3=0;
+  document.getElementById("x").innerHTML=00;
+  document.getElementById("y").innerHTML=00;
+  document.getElementById("z").innerHTML=00;
+  clearInterval(y);
+ 
+}
+function Stop(){
+  clearInterval(y);
+}
+

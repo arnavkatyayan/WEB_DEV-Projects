@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <link rel=href stylesheet="style.css">
+    <title>Counter</title>
+    <body>
+      <div>
+      <h1>Stopwatch</h1>
+        <h2>Hours</h2>
+      <h1 id="z">00</h1>
+        <h2>Minutes</h2>
+      <h1 id="y">00</h1>
+      <h2>Second</h2>
+      <h1 id="x">00</h1>
+      <input type="button" value="Press"
+      onclick="Press()">
+       <input type="button" value="Stop"
+      onclick="Stop()">
+       <input type="button" value="Reset"
+      onclick="Reset()">
+      </div>
+      <script src="script.js"></script>
+    </body>
+  </head>
+</html>
