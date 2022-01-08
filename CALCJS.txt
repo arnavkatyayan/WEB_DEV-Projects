@@ -1,0 +1,45 @@
+console.log("Calculator project above");
+console.log("Enjoy");
+//Features to be added-+,-,*,/,pow,%;
+
+
+
+function Add(){
+var x=parseInt(document.getElementById("c").value);
+var y=parseInt(document.getElementById("d").value);
+document.getElementById("e").value=x+y;
+document.getElementById("g").innerHTML="Addition is done";
+}
+function Subtract(){
+var x=parseInt(document.getElementById("c").value);
+var y=parseInt(document.getElementById("d").value);
+document.getElementById("e").value=x-y;
+document.getElementById("g").innerHTML="Subtraction is done";
+}
+function Multiply(){
+var x=parseInt(document.getElementById("c").value);
+var y=parseInt(document.getElementById("d").value);
+document.getElementById("e").value=x*y;
+document.getElementById("g").innerHTML="Multiplication is done";
+}
+function Divide(){
+var x=parseInt(document.getElementById("c").value);
+var y=parseInt(document.getElementById("d").value);
+document.getElementById("e").value=x/y;
+document.getElementById("g").innerHTML="Division is done";
+}
+function Power(){
+var x=parseInt(document.getElementById("c").value);
+var y=parseInt(document.getElementById("d").value);
+document.getElementById("e").value=Math.pow(x,y);
+document.getElementById("g").innerHTML="Power is done";
+}
+function Reset(){
+document.getElementById("c").value=0;
+document.getElementById("d").value=0;
+document.getElementById("e").value=0;
+document.getElementById("g").innerHTML="back to zero";
+}
+function Exit(){
+  alert("Thanks for using this calculator");
+}
