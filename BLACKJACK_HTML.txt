@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <H1 id="a"><b>BLACKJACK GAME</b></H1>
+    <h3 id="a"><b><u>Welcome To the blackjack game</u></b></h3>
+    <br>
+    <b id="b" class="b">Player1:</b> <b id="c" class="b">card1</b> <b id="d" class="b">card2</b>
+    <br>
+    <br>
+    <br>
+    <input type="button" value="Check" id ="e" onclick="Check()">
+    <input type="button" value="Reset" id="e" onclick="Reset()">
+     <input type="button" value="Repeat" id="e" onclick="Repeat()">
+    <input type="button" value="Exit" id="e" onclick="Exit()">
+    <br>
+    <div>
+    <h2 id="f"><b>Game On</b></h2>
+    </div>
+    <b id="g">Revenue:</b> <b id="z">0$</b>
+    <script src="script.js"></script>
+  </body>
+</html>
