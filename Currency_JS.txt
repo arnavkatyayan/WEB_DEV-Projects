@@ -1,0 +1,42 @@
+console.log("Hello World");
+//converting rupee to different currencies.
+function Click(){
+var x=document.getElementById("d").value;
+var y=document.getElementById("c");
+var z=document.getElementById("e").value;
+if(document.getElementById("c").value=='Dollars'){
+  z=x/74.39;
+  document.getElementById("e").value=z;
+}
+else if(document.getElementById("c").value=='Euros'){
+  z=x/84.91;
+  document.getElementById("e").value=z;
+}
+else if(document.getElementById("c").value=='Pounds'){
+  z=x/101.73;
+  document.getElementById("e").value=z;
+}
+else if(document.getElementById("c").value=='Dinar'){
+  z=x/246.38;
+  document.getElementById("e").value=z;
+}
+else if(document.getElementById("c").value=='Yen'){
+  z=x/0.65;
+  document.getElementById("e").value=z;
+}
+else if(document.getElementById("c").value=='Yuan'){
+  z=x/11.71;
+  document.getElementById("e").value=z;
+}
+else if(document.getElementById("c").value=='Franc'){
+  z=x/81.36;
+  document.getElementById("e").value=z;
+}
+}
+function Reset(){
+  document.getElementById("d").value=00;
+  document.getElementById("e").value=00;
+}
+function Exit(){
+  alert("Thanks for using my currency converter project");
+}
