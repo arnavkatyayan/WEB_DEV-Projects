@@ -1,0 +1,61 @@
+console.log("Welcome to the blackjack game");
+var b=0;
+
+function Check(){
+var a=prompt("Dear player Please Enter the name");
+var x=Math.ceil(Math.random()*13);
+var y=Math.ceil(Math.random()*13);
+document.getElementById("b").innerHTML=a;
+document.getElementById("c").innerHTML=x;
+document.getElementById("d").innerHTML=y;
+
+
+var z=x+y;
+if(z==21){
+document.getElementById("f").innerHTML="Blackjack!";
+b=b+2000;
+
+document.getElementById("z").innerHTML=b;
+
+}
+else{
+document.getElementById("f").innerHTML="Sorry Try Again";
+b=b-50;
+document.getElementById("z").innerHTML=b;
+}
+
+}
+function Reset(){
+
+document.getElementById("b").innerHTML="Player1";
+document.getElementById("c").innerHTML="card1";
+document.getElementById("d").innerHTML="card2";
+document.getElementById("f").innerHTML="Game On";
+document.getElementById("g").innerHTML="Revenue";
+document.getElementById("z").innerHTML=0;
+
+}
+function Exit(){
+alert("Thanks for Playing"+"You have earned"+b+"Dollars");
+document.getElementById("f").innerHTML="Thanks for playing";
+}
+function Repeat(){
+var x=Math.ceil(Math.random()*13);
+var y=Math.ceil(Math.random()*13);
+document.getElementById("c").innerHTML=x;
+document.getElementById("d").innerHTML=y;
+var z=x+y;
+if(z==21){
+document.getElementById("f").innerHTML="Blackjack!";
+b=b+2000;
+
+document.getElementById("z").innerHTML=b;
+
+}
+else{
+document.getElementById("f").innerHTML="Sorry Try Again";
+b=b-50;
+document.getElementById("z").innerHTML=b;
+}
+
+}
