@@ -1,0 +1,34 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+
+body{
+  background:green;
+  
+}
+.head{
+  text-align:center;
+  color:blue;
+  border-style:dotted;
+  border-color:yellow;
+  border-width:t;
+  background:black;
+  height:100px;
+  margin-top:10px;
+  width:300px;
+  margin-left:210px;
+  border-radius:15px;
+}
+.t1{
+  margin-top:30px;
+}
+.Output{
+  text-align:center;
+  color:red;
+  margin-top:55px;
+  font-size:60px;
+  margin-left:15px;
+  font-style:italic;
+}
