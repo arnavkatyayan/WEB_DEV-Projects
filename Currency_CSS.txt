@@ -1,0 +1,13 @@
+body{
+  background:green;
+}
+#a{
+  text-align: center;
+  color: white;
+}
+#b{
+color:black;
+background:blue;
+
+}
+
